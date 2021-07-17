@@ -1,5 +1,5 @@
-title: Welcome
+title: Oh hi
 theme: minima
 description: > # this means to ignore newlines until "baseurl:"
 show_excerpts: true # set to false to remove excerpts on the homepage
-files: <a href="css/style.css">test.css</a>
+files: <a href="/test.css">test.css</a>
