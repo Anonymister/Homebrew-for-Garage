@@ -1,5 +1,7 @@
 <img 
   src='url link' 
   style='position:absolute; top:0px; left:0px; width:100%; height:100%' />
-
-/* background image, make sure that it's big enough and the right angle! if you're lazy you can add something like transform:rotate(90deg); For Homebrewery doesn't need <style> or <span> */
+  
+/* copy paste the above code, not a css */
+/* background image, put at the top of the page. Make sure that it's big enough and the right angle! if you need something quick you can add something like transform:rotate(90deg); into the qoute marks in style in the above code */
+/* For Homebrewery doesn't need <style> or <span> */
