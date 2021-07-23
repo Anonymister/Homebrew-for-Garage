@@ -50,19 +50,7 @@
 
 
 
-	 
-
-
-  .phb:after { display:none; }
-
-
-
- .phb h1+p::first-letter{
-  font: inherit;
-  float: none;
-  font-size: 1em; 
-  line-height: .5;  
-  }
+	
 
 
 
@@ -128,27 +116,6 @@
 
 
 
-    .phb {
-        background-image: none;
-				padding-top: 23mm;
-padding-right: 28mm;
-padding-bottom: 27mm;
-padding-left: 28mm;
-	    column-width: 75mm;
-	column-gap: 4.8mm;
-    }
-
-
-
-
-
-
-.phb {
-        color: black;
-    }
-
-
-
 
   .phb h2 {
     color: #000000;
@@ -185,3 +152,32 @@ br {
 	content:" "
 		
 }
+
+.phb:after { display:none; }
+
+
+.phb h1+p::first-letter{
+  font: inherit;
+  float: none;
+  font-size: 1em; 
+  line-height: .5;  
+  }
+
+    .phb {
+        background-image: none;
+				padding-top: 23mm;
+padding-right: 28mm;
+padding-bottom: 27mm;
+padding-left: 28mm;
+	    column-width: 75mm;
+	column-gap: 4.8mm;
+    }
+
+
+
+
+
+
+.phb {
+        color: black;
+    }
