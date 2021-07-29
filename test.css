@@ -160,7 +160,7 @@
 	}
 
   
-	.phb h3 {font-family:firasans;color: #000000;text-decoration:none;font-size:17pt;
+	.phb h3 {font-family:firasans;color: #000000;border-color:white;mix-blend-mode:darken;text-decoration:underline;font-size:17pt;
 }
 
 
@@ -245,7 +245,11 @@ column-width: 75mm;
 column-gap: 5mm;
     }
 
+.phb p, 
+  .phb p+p, .phb ul+p, .phb ol+p {
 
+      text-indent: 0em; 
+      }
 
 
 
