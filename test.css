@@ -169,8 +169,8 @@
 
 	.phb h1 {
 		font-family:firasans
-		-webkit-text-stroke: 2pt #e6007e;
     		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke: 2pt #e6007e;
 		font-size:65pt;
 		line-height:93.5pt;
 }
