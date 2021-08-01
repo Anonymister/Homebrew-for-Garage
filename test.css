@@ -164,7 +164,7 @@
 		font-size:9.5pt;
 		line-height:15.5pt;
 		color: black;
-		text-shadow: 0.5pt 0 0 currentcolor, 0 -0.5pt 0 currentcolor, 0 0.5pt 0 currentcolor, -0.5pt 0 0 currentcolor;
+		text-shadow: 1px 0 0 currentcolor, 0 -1px 0 currentcolor, 0 1px 0 currentcolor, -1px 0 0 currentcolor;
 	
 	}
 
