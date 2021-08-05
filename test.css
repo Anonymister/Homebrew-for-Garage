@@ -189,8 +189,7 @@
 	.phb h3 {
 		font-family:firasans;
 		color: #000000;
-		border-color:white;
-		mix-blend-mode:darken;
+		border-color:transparent;
 		font-size:17pt;
 		line-height:26pt;
 }
