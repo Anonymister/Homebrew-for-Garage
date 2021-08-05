@@ -207,10 +207,33 @@
 		font-family: warsawgothiccondensed;
 		font-size:80pt;
 		letter-spacing : .04em;
-		line-height: .6;
+		line-height: 70pt;
+		column-span: all;
+		-webkit-column-span: all;
+		-moz-column-span: all;
   }
 
+	.phb h6 {
+		font-family:firasans; 
+		color: #000000; 
+		font-size:16pt;
+		column-span: all;
+		-webkit-column-span: all;
+		-moz-column-span: all;
+}
 
+	.phb .mythos {
+		-webkit-text-fill-color: transparent;
+    		-webkit-text-stroke: 1.4pt #e6007e;
+		text-shadow: 0vw 0vw 17px #e6007e;
+
+
+	}
+	
+.phb .myth {
+			color: #e6007e;
+
+	}
 
 /* Formatting */
 
