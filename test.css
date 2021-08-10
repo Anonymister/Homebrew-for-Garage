@@ -206,7 +206,8 @@
 		font-family: warsawgothiccondensed;
 		font-size:80pt;
 		letter-spacing : .04em;
-		line-height: 70pt;
+		line-height: 90pt;
+		margin-bottom:-2mm;
 		column-span: all;
 		-webkit-column-span: all;
 		-moz-column-span: all;
