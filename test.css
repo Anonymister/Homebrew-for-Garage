@@ -348,6 +348,8 @@ column-gap: 5mm;
       }
 
 
-
+.phb {
+font-variant-ligatures: none;
+}
 
 
