@@ -238,7 +238,7 @@
 		font-family: ptserif;
 		font-weight: normal;
 		font-size:9.5pt;
-		line-height:15.5pt;
+		line-height:12pt;
 		color: black;
 
 	
@@ -249,14 +249,13 @@
     		-webkit-text-fill-color: transparent;
 		-webkit-text-stroke: 2pt #e6007e;
 		font-size:65pt;
-		line-height:93.5pt;
 }
 
 	.phb h2 {
 		color: #000000;
 		font-family:firasans;
 		font-size:25pt;
-		line-height:37pt;
+		line-height:24pt;
 		text-decoration:underline;
   }
 
@@ -267,15 +266,15 @@
 		color: #000000;
 		border-color:transparent;
 		font-size:17pt;
-		line-height:26pt;
-		margin-bottom:-1mm;
+		line-height:18pt;
+		
 }
 
 	.phb h4 {
 		font-family:ptserif;
 		color: #000000;
 		font-size:10pt;
-		line-height:16pt;
+		line-height:12pt;
 }
 
 	.phb h5 {
@@ -307,49 +306,125 @@
 
 	}
 	
-.phb .myth {
-			color: #e6007e;
+	.phb .myth {
+		color: #e6007e;
 
 	}
 
 /* Formatting */
 
-br {
-   display: block;
-   margin: 6pt 0;
-	content:" "
+	br {
+   		display: block;
+   		margin: 6pt 0;
+		content:" "
 		
 }
 
-.phb:after { display:none; }
+	.phb:after { display:none; }
 
 
-.phb h1+p::first-letter{
-  font: inherit;
-  float: none;
-  font-size: 1em; 
-  line-height: .5;  
+	.phb h1+p::first-letter{
+  		font: inherit;
+  		float: none;
+  		font-size: 1em; 
+  		line-height: .5;  
   }
 
-    .phb {
-background-image: none;
-padding-top: 23mm;
-padding-right: 28mm;
-padding-bottom: 27mm;
-padding-left: 28mm;
-column-width: 75mm;
-column-gap: 5mm;
+    	.phb {
+		background-image: none;
+		padding-top: 23mm;
+		padding-right: 28mm;
+		padding-bottom: 27mm;
+		padding-left: 28mm;
+		column-width: 75mm;
+		column-gap: 5mm;
     }
 
 .phb p, 
   .phb p+p, .phb ul+p, .phb ol+p {
 
-      text-indent: 0em; 
+      		text-indent: 0em; 
       }
 
 
 .phb {
-font-variant-ligatures: none;
+		font-variant-ligatures: none;
 }
+
+
+/* Classes */
+
+	.phb .example {
+		margin-left: 4.5mm; 
+		font-family:courier;
+		font-size:9pt;
+		margin-bottom:-3mm;
+		margin-top:-3mm;
+
+	}
+	
+	.phb .examplespace {
+		margin-left: 4.5mm; 
+		font-family:courier;
+		font-size:9pt;
+
+
+	}
+
+	
+
+
+	.phb .character {
+				
+	      	padding-left: 4.5mm;
+		font-family:courier;
+		font-size:9pt;
+		margin-bottom:-3mm;
+		margin-top:-3mm;
+								
+	}
+	
+	
+	.phb .characterspace {
+				
+	      	padding-left: 4.5mm;
+		font-family:courier;
+		font-size:9pt;
+
+				}
+	
+	
+	.phb .lede {
+				
+		font-family:ptserif;
+		font-size:13pt;
+		line-height:5mm;
+
+
+				}
+	
+
+	
+	
+	.phb .character:first-letter {
+		margin-left: -4.5mm;
+	}
+	
+	
+	.phb .characterspace:first-letter {
+		margin-left: -4.5mm;
+	}
+	
+	.bullet li {
+  		font-family:courier;
+		font-size:9pt;
+
+}
+	
+
+	
+	.phb li {
+		margin-left:-.5mm;
+	}
 
 
