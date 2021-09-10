@@ -332,10 +332,10 @@
 
     	.phb {
 		background-image: none;
-		padding-top: 23mm;
-		padding-right: 28mm;
-		padding-bottom: 27mm;
-		padding-left: 28mm;
+		padding-top: 27mm;
+		padding-right: 30mm;
+		padding-bottom: 30mm;
+		padding-left: 30mm;
 		column-width: 75mm;
 		column-gap: 5mm;
     }
