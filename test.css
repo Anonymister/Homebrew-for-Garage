@@ -447,6 +447,7 @@ counter-increment: item;
 		font-size:9pt;
 		margin-bottom:-3mm;
 		margin-top:-3mm;
+		line-height:11.5pt;
 
 	}
 	
@@ -454,6 +455,7 @@ counter-increment: item;
 		margin-left: 3.5mm; 
 		font-family:courier;
 		font-size:9pt;
+		line-height:11.5pt;
 
 
 	}
@@ -466,6 +468,7 @@ counter-increment: item;
 	  padding-left: 3.5mm;
 		font-family:courier10;
 		font-size:9pt;
+		line-height:11.5pt;
 		margin-bottom:-3mm;
 		margin-top:-3mm;
 								
@@ -477,6 +480,7 @@ counter-increment: item;
 	      	padding-left: 3.5mm;
 		font-family:courier;
 		font-size:9pt;
+		line-height:11.5pt;
 
 				}
 	
@@ -485,7 +489,7 @@ counter-increment: item;
 				
 		font-family:ptserif;
 		font-size:13pt;
-		line-height:5mm;
+		line-height:15pt;
 
 
 				}
