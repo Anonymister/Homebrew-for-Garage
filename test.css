@@ -150,6 +150,30 @@
 
 }
 
+@font-face {
+font-family: "Courier10"; src: url("//db.onlinewebfonts.com/t/7e963f092f5ba88b84b44fea2afefa06.woff") format("woff");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: "Courier10"; src: url("//db.onlinewebfonts.com/t/8c87ce7c5ad1cf181e1020e401990e39.woff") format("woff");
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: "Courier10"; src: url("//db.onlinewebfonts.com/t/8e8b41038b37365d23df21a7b1e52b0c.woff") format("woff"); 
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family: "Courier10"; src: url("//db.onlinewebfonts.com/t/870b274557fec128fdf99ed1b4671328.woff") format("woff"); 
+font-weight: bold;
+font-style: italic;
+}
+
 .phb .os {
   	font-family: 'Open Sans';
   }
@@ -188,6 +212,10 @@
 
   .phb .cr {
   	font-family: 'Courier';
+  }
+
+phb .cr10 {
+  	font-family: 'Courier10';
   }
 
   .phb .hv {
@@ -249,6 +277,9 @@
     		-webkit-text-fill-color: transparent;
 		-webkit-text-stroke: 2pt #e6007e;
 		font-size:65pt;
+		line-height:57pt;
+
+
 }
 
 	.phb h2 {
@@ -274,7 +305,7 @@
 		font-family:ptserif;
 		color: #000000;
 		font-size:10pt;
-		line-height:12pt;
+		line-height:16pt;
 }
 
 	.phb h5 {
@@ -352,11 +383,67 @@
 }
 
 
-/* Classes */
+/* Classes and list stuff */
 
-	.phb .example {
-		margin-left: 4.5mm; 
-		font-family:courier;
+	.phb li {
+
+
+	line-height:12pt;
+	margin-left:-1.5mm;
+	}
+	
+.phb ul li::marker {
+
+	content: "•" "\000B" "\000B";
+
+	font-family:ptserif;
+	font-size:9.5pt;
+	
+
+	}
+
+	
+.phb .bullet ul li::marker {
+
+	content: "•" "\000B" "\000B";
+
+	font-family:courier10;
+	font-size:9pt;
+
+	
+	}
+	
+.phb .bullet ol li	{
+	
+counter-increment: item;
+	}
+	
+.phb .bullet ol li::marker {
+
+	content: counter(item)"."  ;
+
+	font-family:courier10;
+	font-size:9pt;
+
+	
+	}
+	
+	
+.phb .bullet li {
+  		font-family:courier10;
+		font-size:9pt;
+		line-height:11.5pt;
+
+		margin-left:-1.5mm;
+
+}
+		
+
+	
+.phb .example {
+		
+	margin-left: 3.5mm; 
+		font-family:courier10;
 		font-size:9pt;
 		margin-bottom:-3mm;
 		margin-top:-3mm;
@@ -364,7 +451,7 @@
 	}
 	
 	.phb .examplespace {
-		margin-left: 4.5mm; 
+		margin-left: 3.5mm; 
 		font-family:courier;
 		font-size:9pt;
 
@@ -376,8 +463,8 @@
 
 	.phb .character {
 				
-	      	padding-left: 4.5mm;
-		font-family:courier;
+	  padding-left: 3.5mm;
+		font-family:courier10;
 		font-size:9pt;
 		margin-bottom:-3mm;
 		margin-top:-3mm;
@@ -387,7 +474,7 @@
 	
 	.phb .characterspace {
 				
-	      	padding-left: 4.5mm;
+	      	padding-left: 3.5mm;
 		font-family:courier;
 		font-size:9pt;
 
@@ -407,24 +494,18 @@
 	
 	
 	.phb .character:first-letter {
-		margin-left: -4.5mm;
+		margin-left: -3.5mm;
 	}
 	
 	
 	.phb .characterspace:first-letter {
-		margin-left: -4.5mm;
-	}
-	
-	.bullet li {
-  		font-family:courier;
-		font-size:9pt;
-
-}
-	
-
-	
-	.phb li {
-		margin-left:-.5mm;
+		margin-left: -3.5mm;
 	}
 
+.page .hyphen {
+-webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 
+	}
