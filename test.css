@@ -174,95 +174,95 @@ font-weight: bold;
 font-style: italic;
 }
 
-.phb .os {
+.page .os {
   	font-family: 'Open Sans';
   }
 
-  .phb .cb {
+  .page .cb {
   	font-family: 'CodeBold';
   }
 
-  .phb .cl {
+  .page .cl {
   	font-family: 'CodeLight';
   }
 
-  .phb .ss {
+  .page .ss {
   	font-family: 'ScalySans';
   }
 
-  .phb .bs {
+  .page .bs {
   	font-family: 'BookSanity';
   }
 
-  .phb .mj {
+  .page .mj {
   	font-family: 'MrJeeves';
   }
 
-  .phb .sb {
+  .page .sb {
   	font-family: 'Solberry';
   }
 
-  .phb .sssc {
+  .page .sssc {
   	font-family: 'ScalySansSmallCaps';
   }
 
-  .phb .la {
+  .page .la {
   	font-family: 'Lato';
   }
 
-  .phb .cr {
+  .page .cr {
   	font-family: 'Courier';
   }
 
-phb .cr10 {
+.page .cr10 {
   	font-family: 'Courier10';
   }
 
-  .phb .hv {
+  .page .hv {
   	font-family: 'Helvetica';
   }
 
-  .phb .ar {
+  .page .ar {
   	font-family: 'Arial';
   }
 
-  .phb .bz {
+  .page .bz {
   	font-family: 'Barazhad';
   }
 
-.phb .as {
+.page .as {
   	font-family: 'averiaserif';
   }
 
-.phb .fs {
+.page .fs {
   	font-family: 'firasans';
   }
 
-.phb .rb {
+.page .rb {
   	font-family: 'riftbold';
   }
 
-.phb .pt {
+.page .pt {
   	font-family: 'ptserif';
   }
 
-.phb .rob {
+.page .rob {
   	font-family: 'roboto';
   }
 
-.phb .rs {
+.page .rs {
   	font-family: 'rocksalt';
   }
 
-.phb .rub {
+.page .rub {
   	font-family: 'rubik';
   }
 
-.phb .wgc {
+.page .wgc {
   	font-family: 'warsawgothiccondensed';
   }
 
-	.phb {
+	.page {
 		font-family: ptserif;
 		font-weight: normal;
 		font-size:9.5pt;
@@ -272,7 +272,7 @@ phb .cr10 {
 	
 	}
 
-	.phb h1 {
+	.page h1 {
 		font-family:firasans;
     		-webkit-text-fill-color: transparent;
 		-webkit-text-stroke: 2pt #e6007e;
@@ -282,7 +282,7 @@ phb .cr10 {
 
 }
 
-	.phb h2 {
+	.page h2 {
 		color: #000000;
 		font-family:firasans;
 		font-size:25pt;
@@ -292,7 +292,7 @@ phb .cr10 {
 
 	
 
-	.phb h3 {
+	.page h3 {
 		font-family:firasans;
 		color: #000000;
 		border-color:transparent;
@@ -301,14 +301,14 @@ phb .cr10 {
 		
 }
 
-	.phb h4 {
+	.page h4 {
 		font-family:ptserif;
 		color: #000000;
 		font-size:10pt;
 		line-height:16pt;
 }
 
-	.phb h5 {
+	.page h5 {
     		color: #000000;
 		font-family: warsawgothiccondensed;
 		font-size:80pt;
@@ -320,7 +320,7 @@ phb .cr10 {
 		-moz-column-span: all;
   }
 
-	.phb h6 {
+	.page h6 {
 		font-family:firasans; 
 		color: #000000; 
 		font-size:16pt;
@@ -329,7 +329,7 @@ phb .cr10 {
 		-moz-column-span: all;
 }
 
-	.phb .mythos {
+	.page .mythos {
 		-webkit-text-fill-color: transparent;
     		-webkit-text-stroke: 1.4pt #e6007e;
 		text-shadow: 0vw 0vw 17px #e6007e;
@@ -337,7 +337,7 @@ phb .cr10 {
 
 	}
 	
-	.phb .myth {
+	.page .myth {
 		color: #e6007e;
 
 	}
@@ -351,17 +351,17 @@ phb .cr10 {
 		
 }
 
-	.phb:after { display:none; }
+	.page:after { display:none; }
 
 
-	.phb h1+p::first-letter{
+	.page h1+p::first-letter{
   		font: inherit;
   		float: none;
   		font-size: 1em; 
   		line-height: .5;  
   }
 
-    	.phb {
+    	.page {
 		background-image: none;
 		padding-top: 27mm;
 		padding-right: 30mm;
@@ -371,28 +371,28 @@ phb .cr10 {
 		column-gap: 5mm;
     }
 
-.phb p, 
-  .phb p+p, .phb ul+p, .phb ol+p {
+.page p, 
+  .page p+p, .page ul+p, .phb ol+p {
 
       		text-indent: 0em; 
       }
 
 
-.phb {
+.page {
 		font-variant-ligatures: none;
 }
 
 
 /* Classes and list stuff */
 
-	.phb li {
+	.page li {
 
 
 	line-height:12pt;
 	margin-left:-1.5mm;
 	}
 	
-.phb ul li::marker {
+.page ul li::marker {
 
 	content: "•" "\000B" "\000B";
 
@@ -403,7 +403,7 @@ phb .cr10 {
 	}
 
 	
-.phb .bullet ul li::marker {
+.page .bullet ul li::marker {
 
 	content: "•" "\000B" "\000B";
 
@@ -413,12 +413,12 @@ phb .cr10 {
 	
 	}
 	
-.phb .bullet ol li	{
+.page .bullet ol li	{
 	
 counter-increment: item;
 	}
 	
-.phb .bullet ol li::marker {
+.page .bullet ol li::marker {
 
 	content: counter(item)"."  ;
 
@@ -429,7 +429,7 @@ counter-increment: item;
 	}
 	
 	
-.phb .bullet li {
+.page .bullet li {
   		font-family:courier10;
 		font-size:9pt;
 		line-height:11.5pt;
@@ -440,7 +440,7 @@ counter-increment: item;
 		
 
 	
-.phb .example {
+.page .example {
 		
 	margin-left: 3.5mm; 
 		font-family:courier10;
@@ -450,7 +450,7 @@ counter-increment: item;
 
 	}
 	
-	.phb .examplespace {
+	.page .examplespace {
 		margin-left: 3.5mm; 
 		font-family:courier;
 		font-size:9pt;
@@ -461,7 +461,7 @@ counter-increment: item;
 	
 
 
-	.phb .character {
+	.page .character {
 				
 	  padding-left: 3.5mm;
 		font-family:courier10;
@@ -472,7 +472,7 @@ counter-increment: item;
 	}
 	
 	
-	.phb .characterspace {
+	.page .characterspace {
 				
 	      	padding-left: 3.5mm;
 		font-family:courier;
@@ -481,7 +481,7 @@ counter-increment: item;
 				}
 	
 	
-	.phb .lede {
+	.page .lede {
 				
 		font-family:ptserif;
 		font-size:13pt;
@@ -493,12 +493,12 @@ counter-increment: item;
 
 	
 	
-	.phb .character:first-letter {
+	.page .character:first-letter {
 		margin-left: -3.5mm;
 	}
 	
 	
-	.phb .characterspace:first-letter {
+	.page .characterspace:first-letter {
 		margin-left: -3.5mm;
 	}
 
