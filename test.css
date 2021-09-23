@@ -391,7 +391,7 @@ font-style: italic;
 	
 .page ul li::marker {
 
-	content: "•" "\000B" "\000B";
+	content: "•" "\000B";
 
 	font-family:ptserif;
 	font-size:9.5pt;
