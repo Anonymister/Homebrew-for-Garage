@@ -174,93 +174,7 @@ font-weight: bold;
 font-style: italic;
 }
 
-.page .os {
-  	font-family: 'Open Sans';
-  }
 
-  .page .cb {
-  	font-family: 'CodeBold';
-  }
-
-  .page .cl {
-  	font-family: 'CodeLight';
-  }
-
-  .page .ss {
-  	font-family: 'ScalySans';
-  }
-
-  .page .bs {
-  	font-family: 'BookSanity';
-  }
-
-  .page .mj {
-  	font-family: 'MrJeeves';
-  }
-
-  .page .sb {
-  	font-family: 'Solberry';
-  }
-
-  .page .sssc {
-  	font-family: 'ScalySansSmallCaps';
-  }
-
-  .page .la {
-  	font-family: 'Lato';
-  }
-
-  .page .cr {
-  	font-family: 'Courier';
-  }
-
-.page .cr10 {
-  	font-family: 'Courier10';
-  }
-
-  .page .hv {
-  	font-family: 'Helvetica';
-  }
-
-  .page .ar {
-  	font-family: 'Arial';
-  }
-
-  .page .bz {
-  	font-family: 'Barazhad';
-  }
-
-.page .as {
-  	font-family: 'averiaserif';
-  }
-
-.page .fs {
-  	font-family: 'firasans';
-  }
-
-.page .rb {
-  	font-family: 'riftbold';
-  }
-
-.page .pt {
-  	font-family: 'ptserif';
-  }
-
-.page .rob {
-  	font-family: 'roboto';
-  }
-
-.page .rs {
-  	font-family: 'rocksalt';
-  }
-
-.page .rub {
-  	font-family: 'rubik';
-  }
-
-.page .wgc {
-  	font-family: 'warsawgothiccondensed';
-  }
 
 	.page {
 		font-family: ptserif;
@@ -286,8 +200,10 @@ font-style: italic;
 		color: #000000;
 		font-family:firasans;
 		font-size:25pt;
-		line-height:24pt;
+		line-height:25pt;
 		text-decoration:underline;
+		text-decoration-skip-ink:none;
+		margin-bottom:5mm;
   }
 
 	
@@ -297,7 +213,8 @@ font-style: italic;
 		color: #000000;
 		border-color:transparent;
 		font-size:17pt;
-		line-height:18pt;
+		line-height:17pt;
+		margin-bottom:3mm;
 		
 }
 
@@ -305,7 +222,8 @@ font-style: italic;
 		font-family:ptserif;
 		color: #000000;
 		font-size:10pt;
-		line-height:16pt;
+		line-height:10pt;
+		margin-bottom:2mm;
 }
 
 	.page h5 {
@@ -329,19 +247,7 @@ font-style: italic;
 		-moz-column-span: all;
 }
 
-	.page .mythos {
-		-webkit-text-fill-color: transparent;
-    		-webkit-text-stroke: 1.4pt #e6007e;
-		text-shadow: 0vw 0vw 17px #e6007e;
-
-
-	}
 	
-	.page .myth {
-		color: #e6007e;
-
-	}
-
 /* Formatting */
 
 	br {
@@ -362,13 +268,14 @@ font-style: italic;
   }
 
     	.page {
-		background-image: none;
-		padding-top: 27mm;
-		padding-right: 30mm;
-		padding-bottom: 30mm;
-		padding-left: 30mm;
-		column-width: 75mm;
-		column-gap: 5mm;
+        background-image: none;
+        padding-top: 22mm;
+        padding-right: 22mm;
+        padding-bottom: 22mm;
+        padding-left: 22mm;
+        column-width: 80mm;
+        column-gap: 5mm;
+	background-color:white;
     }
 
 .page p, 
@@ -382,63 +289,34 @@ font-style: italic;
 		font-variant-ligatures: none;
 }
 
+.page h1 + p:first-line {
 
-/* Classes and list stuff */
-
-	.page li {
-	margin-left:-1.5mm;
-	}
-
-	.page ul li {
-	line-height: 12pt;
-	}
-	
-.page ul li::marker {
-
-	content: "•" "\000B";
-
-	font-family:ptserif;
-	font-size:9.5pt;
-	
-
-	}
-
-	
-.page .bullet ul li::marker {
-
-	content: "•" "\000B" "\000B";
-
-	font-family:courier10;
-	font-size:9pt;
-
-	
-	}
-	
-.page .bullet ol li	{
-	
-counter-increment: item;
-	}
-	
-.page .bullet ol li::marker {
-
-	content: counter(item)"."  ;
-
-	font-family:courier10;
-	font-size:9pt;
-
-	
-	}
-	
-	
-.page .bullet li {
-  		font-family:courier10;
-		font-size:9pt;
-		line-height:11.5pt;
-
-		margin-left:-1.5mm;
+all: unset;
 
 }
-		
+	
+.page h1 + p:first-letter {
+
+all: unset;
+
+}
+
+
+/* Classes */
+
+.page .mythos {
+		-webkit-text-fill-color: transparent;
+    		-webkit-text-stroke: 1.4pt #e6007e;
+		text-shadow: 0vw 0vw 17px #e6007e;
+
+
+	}
+	
+.page .myth {
+		color: #e6007e;
+
+	}
+	
 
 	
 .page .example {
@@ -507,10 +385,132 @@ counter-increment: item;
 		margin-left: -3.5mm;
 	}
 
-.page .hyphen {
--webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+.page .yellow {
+	background-color:#fff2ab;
+	font-style:italic;
+	}
+	
+.page .white {
+	color:white;
+	}
+	
+.page .purple {
+	background-color:#7b4a83;
+	font-style:italic;
+	}
+	
+.page .red {
+	background-color:  #f9d0c4;
+	font-style:italic;
+	}
+	
+.page .green {
+	background-color:  #e2e9b4;
+	font-style:italic;
+	}
+	
+	 
+	
+.page .blue {
+	text-decoration:underline;
+	text-decoration-color:#918fb7;
+	text-decoration-skip-ink:none;
+	}
 
+
+	
+.page .white {
+	color:white;
+	}
+	
+.page .lightred { 
+	background-color:  #852d3a;
+	font-style:italic;
+	} 
+	
+.page .lightgreen {
+	background-color:  #6a8661;
+	font-style:italic;
+	
+	} 
+	
+.page .lightblue {
+	text-decoration:underline;
+	text-decoration-color:#5fc6f0;
+	text-decoration-skip-ink:none;
+	}
+
+/* List stuff */
+	.page li {
+	margin-left:-1.5mm;
+	}
+
+	.page ul li {
+	line-height: 12pt;
+	}
+	
+.page ul li::marker {
+
+	content: "•" "\000B";
+
+	font-family:ptserif;
+	font-size:9.5pt;
+	
+
+	}
+
+	
+.page .bullet ul li::marker {
+
+	content: "•" "\000B" "\000B";
+
+	font-family:courier10;
+	font-size:9pt;
+
+	
+	}
+	
+.page .bullet ol li	{
+	
+counter-increment: item;
+	}
+	
+.page .bullet ol li::marker {
+
+	content: counter(item)"."  ;
+
+	font-family:courier10;
+	font-size:9pt;
+
+	
+	}
+	
+	
+.page .bullet li {
+  		font-family:courier10;
+		font-size:9pt;
+		line-height:11.5pt;
+
+		margin-left:-1.5mm;
+
+}
+
+.page p+ul {
+		margin-top:3mm;
+	}
+	
+.page p+ol {
+		margin-top:3mm;
+	}
+	
+.page ul {
+		margin-bottom:3mm;
+	}
+	
+.page ol {
+		margin-bottom:3mm;
+	}
+
+.page li {
+	margin-right:1.5mm;
 	}
