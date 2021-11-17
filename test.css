@@ -328,20 +328,10 @@ all: unset;
 	margin-left: 3.5mm; 
 		font-family:courier10;
 		font-size:9pt;
-		margin-bottom:-3mm;
-		margin-top:-3mm;
 		line-height:11.5pt;
 
 	}
-	
-	.page .examplespace {
-		margin-left: 3.5mm; 
-		font-family:courier;
-		font-size:9pt;
-		line-height:11.5pt;
 
-
-	}
 
 	
 
@@ -352,20 +342,11 @@ all: unset;
 		font-family:courier10;
 		font-size:9pt;
 		line-height:11.5pt;
-		margin-bottom:-3mm;
-		margin-top:-3mm;
 								
 	}
 	
 	
-	.page .characterspace {
-				
-	      	padding-left: 3.5mm;
-		font-family:courier;
-		font-size:9pt;
-		line-height:11.5pt;
 
-				}
 	
 	
 	.page .lede {
@@ -385,9 +366,7 @@ all: unset;
 	}
 	
 	
-	.page .characterspace:first-letter {
-		margin-left: -3.5mm;
-	}
+
 
 .page .yellow {
 	background-color:#fff2ab;
@@ -445,6 +424,7 @@ all: unset;
 	}
 
 /* List stuff */
+
 	.page li {
 	margin-left:-1.5mm;
 	}
